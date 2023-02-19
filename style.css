@@ -1,0 +1,85 @@
+*{
+    margin:0;
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif, monospace;
+
+}
+
+.outer{
+    width: 100vw;
+    height:100vh;   
+    background-color: #ff9d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='98.7' stroke-opacity='0.54' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: bold;
+}
+
+.inner{
+    width: 400px;
+    
+    margin:0 auto;
+    position:relative;
+    top: 50% ;
+    transform: translateY(-50%);
+    padding:  0px 80px;
+    background-color: rgba(237, 85, 85, 0.617);
+    border-radius: 30px;
+}
+
+.header{
+    padding: 20px;
+    border-color: #000000;
+}
+
+.header h2 {
+font-size: 2rem;
+color: #000000;
+text-align: center;
+text-shadow: #ffffff;
+
+}
+
+.header p {
+    padding: 8px;
+    text-align: center;
+
+}
+.signupbody{
+    margin: 8px 0;
+}
+.signupbody p {
+    margin: 0px;
+    padding: 10px;
+}
+.signupbody p label{
+    display:block;
+    font-weight: bold;
+}
+
+.signupbody p input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    font-size: small;
+    margin-top: 5px;
+}
+.signupbody p input[type="submit"]{
+    background-color: rgb(170, 106, 106);
+    color: #000000;
+    width: 100%;
+    
+    cursor: pointer;
+}
+.signupbody p input[type="submit"]:hover{
+    background-color: #cb2323;
+    
+}
+
+
+
